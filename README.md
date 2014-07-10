@@ -3,7 +3,7 @@ online-class-charts
 
 Code needed to reproduce data analysis and charts for MIT/Harvard Online Course Data.
 
-This is a complement to my blog article [The Interesting Percentages of Female Students in MIT and Harvard Online Courses](http://minimaxir.com/2014/07/gender-course/).
+This is a complement to my blog article [Who Performs the Best in Online Classes?](http://minimaxir.com/2014/07/online-class-charts/).
 
 Since MIT/Harvard prevent redistribution of the dataset, you'll have to [download the dataset](http://dx.doi.org/10.7910/DVN/26147) yourself to start the analysis.
 

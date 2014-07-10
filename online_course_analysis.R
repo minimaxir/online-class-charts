@@ -300,7 +300,7 @@ ggplot(aes(x=gender, y=avg_fulfillment), data=by_gender) +
   scale_y_continuous(labels = percent, breaks=seq(0,0.1,by=0.01)) +
   geom_text(label = perc_labels, color = "white", hjust=1.5, family=fontFamily, size=5) +
   theme(axis.title.y = element_text(color=second_color), axis.title.x = element_text(color=second_color)) +
-  labs(title=paste("Avg Completion Rates of MIT/Harvard Online Classes"), x="Gender", y="Avg % Completion Rate of Classes by Country")
+  labs(title=paste("Avg Completion Rates of MIT/Harvard Online Classes"), x="Gender", y="Avg % Completion Rate of Classes by Gender")
 
 ggsave("gender-completion.png", dpi=300, width=4, height=3)
 
